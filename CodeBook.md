@@ -40,81 +40,82 @@ for all variables across all experiments
 
 'mean' was prepended to denote that mean value was computed for all variables across all experiments
 for each group (subject, activity)
- 
-Acc/Gyro= accelerometer and gyroscope sensors used in experiments 
-Time=time domain signal 
-Body/Gravity= the acceleration signal was then separated into body and gravity acceleration signals (meanTimeBodyAccXYZ and meanTimeGravityAccXYZ)
-Jerk=the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (meanTimeBodyAccJerkXYZ and meanTimeBodyGyroJerkXYZ)
-Mag=the magnitude of these three-dimensional signals were calculated using the Euclidean norm (meanTimeBodyAccMag, meanTimeGravityAccMag, meanTimeBodyAccJerkMag, meanTimeBodyGyroMag, meanTimeBodyGyroJerkMag). 
-Frequency=finally, Fast Fourier Transform (FFT) was applied to some of these signals producing meanFrequencyBodyAccXYZ, meanFrequencyBodyAccJerkXYZ, meanFrequencyBodyGyroXYZ, meanFrequencyBodyAccJerkMag, meanFrequencyBodyGyroMag, ,meanFrequencyBodyGyroJerkMag
-XYZ=denotes 3-axial raw signals in the X, Y and Z directions
+
+
+*Acc/Gyro= accelerometer and gyroscope sensors used in experiments*  
+*Time=time domain signal*  
+*Body/Gravity= the acceleration signal was then separated into body and gravity acceleration signals (meanTimeBodyAccXYZ and meanTimeGravityAccXYZ)*  
+*Jerk=the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (meanTimeBodyAccJerkXYZ and meanTimeBodyGyroJerkXYZ)*  
+*Mag=the magnitude of these three-dimensional signals were calculated using the Euclidean norm (meanTimeBodyAccMag, meanTimeGravityAccMag, meanTimeBodyAccJerkMag,*          *meanTimeBodyGyroMag, meanTimeBodyGyroJerkMag).*  
+*Frequency=finally, Fast Fourier Transform (FFT) was applied to some of these signals producing meanFrequencyBodyAccXYZ, meanFrequencyBodyAccJerkXYZ,*   *meanFrequencyBodyGyroXYZ, meanFrequencyBodyAccJerkMag, meanFrequencyBodyGyroMag, ,meanFrequencyBodyGyroJerkMag*  
+*XYZ=denotes 3-axial raw signals in the X, Y and Z directions*
  
  
 All measurements are in Hz
  
-meanTimeBodyAccMeanX
-meanTimeBodyAccMeanY
-meanTimeBodyAccStdY
-meanTimeGravityAccMeanY
-meanTimeGravityAccStdY
-meanTimeBodyAccJerkMeanY
-meanTimeBodyAccJerkStdY 
-meanTimeBodyGyroMeanY
-meanTimeBodyGyroStdY
-meanTimeBodyGyroJerkMeanY
-meanTimeBodyGyroJerkStdY
-meanTimeBodyAccMagStd
-meanTimeBodyAccJerkMagMean
-meanTimeBodyGyroMagStd
-meanFrequencyBodyAccMeanX
-meanFrequencyBodyAccStdX
-meanFrequencyBodyAccJerkMeanX
-meanFrequencyBodyAccJerkStdX
-meanFrequencyBodyGyroMeanX
-meanFrequencyBodyGyroStdX
-meanFrequencyBodyAccMagMean
-meanFrequencyBodyBodyAccJerkMagStd
-meanFrequencyBodyBodyGyroJerkMagMean
-meanTimeBodyAccMeanZ
-meanTimeBodyAccStdZ
-meanTimeGravityAccMeanZ
-meanTimeGravityAccStdZ
-meanTimeBodyAccJerkMeanZ
-meanTimeBodyAccJerkStdZ
-meanTimeBodyGyroMeanZ
-meanTimeBodyGyroStdZ
-meanTimeBodyGyroJerkMeanZ
-meanTimeBodyGyroJerkStdZ
-meanTimeGravityAccMagMean
-meanTimeBodyAccJerkMagStd
-meanTimeBodyGyroJerkMagMean
-meanFrequencyBodyAccMeanY
-meanFrequencyBodyAccStdY
-meanFrequencyBodyAccJerkMeanY
-meanFrequencyBodyAccJerkStdY
-meanFrequencyBodyGyroMeanY
-meanFrequencyBodyGyroStdY
-meanFrequencyBodyAccMagStd
-meanFrequencyBodyBodyGyroMagMean
-meanFrequencyBodyBodyGyroJerkMagStd
-meanTimeBodyAccStdX
-meanTimeGravityAccMeanX
-meanTimeGravityAccStdX
-meanTimeBodyAccJerkMeanX
-meanTimeBodyAccJerkStdX
-meanTimeBodyGyroMeanX
-meanTimeBodyGyroStdX
-meanTimeBodyGyroJerkMeanX
-meanTimeBodyGyroJerkStdX
-meanTimeBodyAccMagMean
-meanTimeGravityAccMagStd
-meanTimeBodyGyroMagMean
-meanTimeBodyGyroJerkMagStd
-meanFrequencyBodyAccMeanZ
-meanFrequencyBodyAccStdZ
-meanFrequencyBodyAccJerkMeanZ
-meanFrequencyBodyAccJerkStdZ
-meanFrequencyBodyGyroMeanZ
-meanFrequencyBodyGyroStdZ
-meanFrequencyBodyBodyAccJerkMagMean
-meanFrequencyBodyBodyGyroMagStd
+ * meanTimeBodyAccMeanX
+ * meanTimeBodyAccMeanY
+ * meanTimeBodyAccStdY
+ * meanTimeGravityAccMeanY
+ * meanTimeGravityAccStdY
+ * meanTimeBodyAccJerkMeanY
+ * meanTimeBodyAccJerkStdY 
+ * meanTimeBodyGyroMeanY
+ * meanTimeBodyGyroStdY
+ * meanTimeBodyGyroJerkMeanY
+ * meanTimeBodyGyroJerkStdY
+ * meanTimeBodyAccMagStd
+ * meanTimeBodyAccJerkMagMean
+ * meanTimeBodyGyroMagStd
+ * meanFrequencyBodyAccMeanX
+ * meanFrequencyBodyAccStdX
+ * meanFrequencyBodyAccJerkMeanX
+ * meanFrequencyBodyAccJerkStdX
+ * meanFrequencyBodyGyroMeanX
+ * meanFrequencyBodyGyroStdX
+ * meanFrequencyBodyAccMagMean
+ * meanFrequencyBodyBodyAccJerkMagStd
+ * meanFrequencyBodyBodyGyroJerkMagMean
+ * meanTimeBodyAccMeanZ
+ * meanTimeBodyAccStdZ
+ * meanTimeGravityAccMeanZ
+ * meanTimeGravityAccStdZ
+ * meanTimeBodyAccJerkMeanZ
+ * meanTimeBodyAccJerkStdZ
+ * meanTimeBodyGyroMeanZ
+ * meanTimeBodyGyroStdZ
+ * meanTimeBodyGyroJerkMeanZ
+ * meanTimeBodyGyroJerkStdZ
+ * meanTimeGravityAccMagMean
+ * meanTimeBodyAccJerkMagStd
+ * meanTimeBodyGyroJerkMagMean
+ * meanFrequencyBodyAccMeanY
+ * meanFrequencyBodyAccStdY
+ * meanFrequencyBodyAccJerkMeanY
+ * meanFrequencyBodyAccJerkStdY
+ * meanFrequencyBodyGyroMeanY
+ * meanFrequencyBodyGyroStdY
+ * meanFrequencyBodyAccMagStd
+ * meanFrequencyBodyBodyGyroMagMean
+ * meanFrequencyBodyBodyGyroJerkMagStd
+ * meanTimeBodyAccStdX
+ * meanTimeGravityAccMeanX
+ * meanTimeGravityAccStdX
+ * meanTimeBodyAccJerkMeanX
+ * meanTimeBodyAccJerkStdX
+ * meanTimeBodyGyroMeanX
+ * meanTimeBodyGyroStdX
+ * meanTimeBodyGyroJerkMeanX
+ * meanTimeBodyGyroJerkStdX
+ * meanTimeBodyAccMagMean
+ * meanTimeGravityAccMagStd
+ * meanTimeBodyGyroMagMean
+ * meanTimeBodyGyroJerkMagStd
+ * meanFrequencyBodyAccMeanZ
+ * meanFrequencyBodyAccStdZ
+ * meanFrequencyBodyAccJerkMeanZ
+ * meanFrequencyBodyAccJerkStdZ
+ * meanFrequencyBodyGyroMeanZ
+ * meanFrequencyBodyGyroStdZ
+ * meanFrequencyBodyBodyAccJerkMagMean
+ * meanFrequencyBodyBodyGyroMagStd
